@@ -19,6 +19,7 @@ function App() {
       children: [
         {
           path: 'academic',
+          loader: () => fetch('academic.json'),
           element: <Academic></Academic>
         },
         {

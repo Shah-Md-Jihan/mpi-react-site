@@ -1,26 +1,32 @@
 [
     {
         "id": 1,
+        "img": "https://img.freepik.com/free-photo/happy-student-with-graduation-hat-diploma-grey_231208-12979.jpg?w=360",
         "title": "Online Result"
     },
     {
         "id": 2,
+        "img": "https://media.istockphoto.com/photos/portrait-of-two-young-women-showing-thumbs-up-on-graduation-day-picture-id1370024716?b=1&k=20&m=1370024716&s=170667a&w=0&h=ELQ3orkTISnwVprp6SMRWdP1EpXDAOeZ7kyCBnnpyqs=",
         "title": "Internal Result"
     },
     {
         "id": 3,
+        "img": "https://wallpaperaccess.com/full/1209397.jpg",
         "title": "Syllabus"
     },
     {
         "id": 4,
+        "img": "https://img.freepik.com/free-photo/back-school-concept-books-colored-pencils-clock_155003-3671.jpg?w=2000",
         "title": "Class Routine"
     },
     {
         "id": 5,
+        "img": "https://www.elearnmagazine.com/wp-content/uploads/2021/05/OLMS_WEB_Digital-Learning-Tools_700x400.jpg",
         "title": "Digital Content"
     },
     {
         "id": 6,
+        "img": "https://www.pngitem.com/pimgs/m/196-1960219_academic-and-career-planning-hd-png-download.png",
         "title": "Semester Plan"
     }
 ]
