@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "technology": "Computer"
+    },
+    {
+        "id": 2,
+        "technology": "Civil"
+    },
+    {
+        "id": 3,
+        "technology": "Electrical"
+    },
+    {
+        "id": 4,
+        "technology": "Electronics"
+    },
+    {
+        "id": 5,
+        "technology": "Refrigeration & Air Condioning"
+    },
+    {
+        "id": 6,
+        "technology": "Power"
+    }
+]
