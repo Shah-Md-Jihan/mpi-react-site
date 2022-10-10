@@ -22,34 +22,66 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link>
-                                <NavLink className={`text-decoration-none ${({ isActive }) => isActive ? 'active' : 'deactive'}`} to="/academic">Academic</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/academic">Academic</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/teachers">Teachers Info</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/teachers">Teachers Info</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/students">Students Info</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/students">Students Info</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/notice">Notice</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/notice">Notice</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/elearning">E-Learning</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/elearning">E-Learning</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/gallery">Gallery</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/gallery">Gallery</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/about">About</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/about">About</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <NavLink className='text-decoration-none' to="/contact">Contact</NavLink>
+                                <NavLink style={({ isActive }) => {
+                                    return {
+                                        color: isActive ? "red" : "#fff",
+                                    };
+                                }} className='text-decoration-none' to="/contact">Contact</NavLink>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </nav>
+        </nav >
     );
 };
 

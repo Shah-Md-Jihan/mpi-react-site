@@ -4,6 +4,7 @@
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBvwvshQWqNAHGRVkpQg81NeI-xsb3Fcy78g&usqp=CAU');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .background-content {

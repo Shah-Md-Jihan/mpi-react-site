@@ -20,6 +20,7 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('https://jsonplaceholder.typicode.com/posts'),
           element: <Home></Home>
         },
         {
