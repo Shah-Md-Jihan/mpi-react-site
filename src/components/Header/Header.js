@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import './Header.css';
 
 
 
@@ -21,28 +22,28 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/academic">Academic</Link>
+                                <NavLink className={`text-decoration-none ${({ isActive }) => isActive ? 'active' : 'deactive'}`} to="/academic">Academic</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/teachers">Teachers Info</Link>
+                                <NavLink className='text-decoration-none' to="/teachers">Teachers Info</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/students">Students Info</Link>
+                                <NavLink className='text-decoration-none' to="/students">Students Info</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/notice">Notice</Link>
+                                <NavLink className='text-decoration-none' to="/notice">Notice</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/elearning">E-Learning</Link>
+                                <NavLink className='text-decoration-none' to="/elearning">E-Learning</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/gallery">Gallery</Link>
+                                <NavLink className='text-decoration-none' to="/gallery">Gallery</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/about">About</Link>
+                                <NavLink className='text-decoration-none' to="/about">About</NavLink>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='text-decoration-none text-white' to="/contact">Contact</Link>
+                                <NavLink className='text-decoration-none' to="/contact">Contact</NavLink>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
