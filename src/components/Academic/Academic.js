@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -16,12 +16,9 @@ const Academic = () => {
                             <Card>
                                 <Card.Img variant="top" className='ac_image' src={ac_data.img} />
                                 <Card.Body>
-                                    <Card.Title>{ac_data.title}</Card.Title>
-                                    <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit
-                                        longer.
-                                    </Card.Text>
+                                    <Card.Title>
+                                        <Link className='text-decoration-none text-dark' to="/academic">{ac_data.title}</Link>
+                                    </Card.Title>
                                 </Card.Body>
                             </Card>
                         </Col>

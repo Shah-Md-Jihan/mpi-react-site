@@ -5,6 +5,7 @@ import Academic from './components/Academic/Academic';
 import Contact from './components/Contact/Contact';
 import Elearning from './components/Elearning/Elearning';
 import Gallery from './components/Gallery/Gallery';
+import Home from './components/Home/Home';
 import Notice from './components/Notice/Notice';
 import Students from './components/Students/Students';
 import Teachers from './components/Teachers/Teachers';
@@ -17,6 +18,10 @@ function App() {
       path: '/',
       element: <Main></Main>,
       children: [
+        {
+          path: '/',
+          element: <Home></Home>
+        },
         {
           path: 'academic',
           loader: () => fetch('academic.json'),
